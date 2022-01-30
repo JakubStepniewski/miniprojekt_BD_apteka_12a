@@ -1,0 +1,143 @@
+#productsDisplayPlane form #Image {
+    height: 150px;
+    width: 150px;
+    float: left;
+    background: #f9f9fb;
+    border: 1px solid #bbb;
+}
+
+td button {
+    float: left;
+    width: 140px;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+div#Image img {
+    width: 100%;
+    height: auto;
+}
+
+div#Image img {
+    width: 100%;
+    height: auto;
+    max-height: 180px;
+}
+
+div#header_data {
+    width: calc(100% - 250px);
+    margin-left: 50px;
+    float: left;
+    display: block;
+    height: 150px;
+}
+
+span {
+    display: block;
+    position: relative;
+    width: 100%;
+    padding: 10px 0px 10px 0;
+}
+
+input {
+    outline: none;
+    border: 1px solid #bbb;
+    width: fit-content;
+    padding: 6px 12px;
+    width: calc(100% - 22px);
+    font-size: 16px;
+}
+
+label {
+    margin-bottom: 5px;
+    display: block;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+textarea#opis {
+    width: 90%;
+    /* margin-top: 50px; */
+    min-height: 200px;
+    height: auto;
+    outline: none;
+    font-size: 16px;
+    border: 1px solid #bbb;
+    padding: 6px;
+    float: left;
+    resize: none;
+}
+
+div#header {
+    width: 100%;
+    height: 150px;
+    margin-bottom: 50px;
+    position: relative;
+}
+
+div#content {
+    width: calc(100% - 60px);
+    display: block;
+    position: relative;
+    height: calc(100% - 200px);
+    padding-bottom: 1px;
+}
+
+#content span {
+    display: block;
+    float: left;
+    width: 50%;
+    max-height: 100%;
+    padding: 0;
+}
+
+div#content button {
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+}
+
+input[type="checkbox"] {
+    appearance: none;
+    border: none;
+}
+
+#category span label {
+    font-weight: normal;
+}
+
+#productsAddPlane button#addNew {
+    position: relative;
+    float: right;
+    margin-top: 10px;
+    right: 0px;
+    /* padding-bottom: 10px; */
+}
+
+textarea#opis_add {
+    width: 100%;
+    border: 1px solid #bbb;
+    min-height: 200px;
+    padding: 6px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+div#koszta {
+    width: 100%;
+    display: block;
+}
+
+div#koszta span {
+    width: calc(calc(100% / 4) - 10px);
+    margin: 0 5px;
+}
+
+div#koszta span label {
+    font-size: 17px;
+}
+
+#category span {
+    margin: 5px;
+    width: calc(50% - 10px);
+}

@@ -1,0 +1,139 @@
+/* :root {
+    --main: #04aa6d;
+}
+
+#deliveryAddPlane {
+    position: fixed;
+    background: rgba(0, 0, 0, 0.65);
+    width: 102vw;
+    height: 102vh;
+    display: none;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#deliveryAddPlane form {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background: white;
+    width: 50vw;
+    height: 50vh;
+    transform: translate(-50%, -50%);
+} */
+
+button.deleteDelivery {
+    width: 140px;
+    float: left;
+    margin: 0 5px;
+}
+
+button.displayProduct {
+    width: 140px;
+    float: left;
+    margin: 0 5px;
+}
+
+content div {
+    padding: 10px 0;
+}
+
+content div span label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: block;
+}
+
+div#productsList span {
+    width: calc(50% - 10px);
+    display: block;
+    float: left;
+    height: 50px;
+    position: relative;
+    margin: 5px;
+}
+
+div#productsList {
+    display: flex;
+    height: fit-content;
+    align-items: 1;
+    width: 75%;
+    border: 1px solid #bbb;
+    padding-top: 0;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+input.productIlosc {
+    outline: none;
+    border: 1px solid #bbb;
+    font-size: 16px;
+    padding: 6px 12px;
+    /* max-width: 100%; */
+    /* width: 100%; */
+    width: 100%;
+}
+
+.productObj {
+    width: 100%;
+    display: block;
+    border-bottom: 1px solid #bbb;
+}
+
+input#date {
+    outline: none;
+    border: 1px solid #bbb;
+    font-size: 16px;
+    padding: 6px 12px;
+    max-width: 100%;
+    width: calc(100% - 24px);
+}
+
+button#addProduct {
+    position: relative !important;
+    right: 0;
+    clear: both;
+    transform: none;
+    left: 5px;
+    margin-top: 20px;
+}
+
+.productObj {
+    padding-top: 10px;
+}
+
+div#objectsList {
+    width: 100%;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+div#productsList .productObj span:nth-child(1) {
+    width: calc(60% - 10px);
+}
+
+div#productsList .productObj span:nth-child(2) {
+    width: calc(20% - 10px);
+}
+
+div#productsList .productObj span:nth-child(3) {
+    width: calc(20% - 10px);
+    position: relative;
+}
+
+button.removeDeliveryProduct {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translate(0, -50%);
+    height: 40px;
+}
+
+#productslistheader {
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    display: block;
+}
